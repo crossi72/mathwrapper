@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MathWrapper
+</name>
+</assembly>
+<members>
+<member name="M:MW.MathWrapper.WaitAndEvaluateAsImage(System.String,System.Windows.Forms.PictureBox)">
+	<summary>
+ evaluate an expression and returns result as an image
+ </summary>
+	<param name="expression">expression to evaluate</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MW.MathWrapper.WaitAndEvaluateAsImage(System.String,System.Int32,System.Int32)">
+	<summary>
+ evaluate an expression and returns result as an image
+ </summary>
+	<param name="expression">expression to evaluate</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MW.MathWrapper.WaitAndEvaluateAsDoubleArray(System.String)">
+	<summary>
+ evaluate an expression and returns result as an array of double
+ </summary>
+	<param name="expression">expression to evaluate</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MW.MathWrapper.WaitAndEvaluateAsDouble(System.String)">
+	<summary>
+ evaluate an expression and returns result as a double
+ </summary>
+	<param name="expression">expression to evaluate</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MW.MathWrapper.WaitAndEvaluateAsString(System.String)">
+	<summary>
+ evaluate an expression and returns result as a string
+ </summary>
+	<param name="expression">expression to evaluate</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MW.MathWrapper.WaitAndDiscardAnswer(System.String)">
+	<summary>
+ evaluate an expression and returns result as an expression
+ </summary>
+	<param name="expression">expression to evaluate</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:MW.My.Resources.Resources.ResourceManager">
+	<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member><member name="P:MW.My.Resources.Resources.Culture">
+	<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member><member name="T:MW.My.Resources.Resources">
+	<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+</members>
+</doc>

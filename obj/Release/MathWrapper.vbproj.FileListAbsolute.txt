@@ -1,9 +1,0 @@
-C:\Lavoro\mathematica\DSS\soluzione\DSST\MathWrapper\bin\Release\MathWrapper.dll
-C:\Lavoro\mathematica\DSS\soluzione\DSST\MathWrapper\bin\Release\MathWrapper.pdb
-C:\Lavoro\mathematica\DSS\soluzione\DSST\MathWrapper\bin\Release\MathWrapper.xml
-C:\Lavoro\mathematica\DSS\soluzione\DSST\MathWrapper\bin\Release\Wolfram.NETLink.dll
-C:\Lavoro\mathematica\DSS\soluzione\DSST\MathWrapper\obj\Release\MW.Resources.resources
-C:\Lavoro\mathematica\DSS\soluzione\DSST\MathWrapper\obj\Release\MathWrapper.vbproj.GenerateResource.Cache
-C:\Lavoro\mathematica\DSS\soluzione\DSST\MathWrapper\obj\Release\MathWrapper.dll
-C:\Lavoro\mathematica\DSS\soluzione\DSST\MathWrapper\obj\Release\MathWrapper.xml
-C:\Lavoro\mathematica\DSS\soluzione\DSST\MathWrapper\obj\Release\MathWrapper.pdb

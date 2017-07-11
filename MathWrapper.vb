@@ -71,7 +71,7 @@ Public Class MathWrapper
 #Region " Public Methods "
 
 	Public Sub KernelStop()
-		Me.ml.Close()
+		'Me.ml.Close()
 	End Sub
 
 	''' <summary>
@@ -92,7 +92,9 @@ Public Class MathWrapper
 	''' <remarks></remarks>
 	Public Function WaitAndEvaluateAsImage(ByVal expression As String, ByVal width As Integer, ByVal height As Integer) As Drawing.Image
 		Try
-			Return ml.EvaluateToImage(expression, width, height)
+			Me.kernel.CaptureGraphics = True
+			Me.kernel.Compute(expression)
+			Return Me.kernel.Graphics(0)
 		Catch ex As Exception
 			Return Nothing
 		End Try

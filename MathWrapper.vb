@@ -93,6 +93,8 @@ Public Class MathWrapper
 	Public Function WaitAndEvaluateAsImage(ByVal expression As String, ByVal width As Integer, ByVal height As Integer) As Drawing.Image
 		Try
 			Me.kernel.CaptureGraphics = True
+			Me.kernel.GraphicsHeight = height
+			Me.kernel.GraphicsWidth = width
 			Me.kernel.Compute(expression)
 			Return Me.kernel.Graphics(0)
 		Catch ex As Exception

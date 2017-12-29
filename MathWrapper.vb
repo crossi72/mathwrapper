@@ -156,10 +156,17 @@ Public Class MathWrapper
 	''' <returns></returns>
 	''' <remarks></remarks>
 	Public Function WaitAndEvaluateAsString(ByVal expression As String) As String
-		ml.Evaluate(expression)
-		ml.WaitForAnswer()
+		'ml.Evaluate(expression)
+		'ml.WaitForAnswer()
 
-		Return ml.GetString
+		Me.kernel.Compute(expression)
+
+		'Return ml.GetString
+		Try
+			Return CType(Me.kernel.Result, String)
+		Catch ex As Exception
+			Throw
+		End Try
 	End Function
 
 	''' <summary>

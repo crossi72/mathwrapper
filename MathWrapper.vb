@@ -4,11 +4,11 @@ Public Class MathWrapper
 
 #Region " Variables "
 
-	Private myKernelReady As Boolean
+	Private ReadOnly myKernelReady As Boolean
 	'Mathematica kernel link
-	Private ml As IKernelLink
+	Private ReadOnly ml As IKernelLink
 	'Mathematica kernel
-	Private kernel As MathKernel
+	Private ReadOnly kernel As MathKernel
 
 #End Region
 
@@ -38,7 +38,7 @@ Public Class MathWrapper
 			'Dim tmpMl As IKernelLink
 			'tmpMl = MathLinkFactory.CreateKernelLink(mlArgs)
 
-			Me.kernel = New Wolfram.NETLink.MathKernel()
+			Me.kernel = New MathKernel()
 
 			Me.kernel.ResultFormat = MathKernel.ResultFormatType.OutputForm
 

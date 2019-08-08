@@ -38,7 +38,7 @@ Public Class MathWrapper
 			'Dim tmpMl As IKernelLink
 			'tmpMl = MathLinkFactory.CreateKernelLink(mlArgs)
 
-			Me.kernel = New MathKernel()
+			Me.kernel = New MathKernel
 
 			Me.kernel.ResultFormat = MathKernel.ResultFormatType.OutputForm
 
